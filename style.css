@@ -44,7 +44,7 @@ body {
   border-radius: 50%;
   position: relative;
   font-size: 43px;
-  transition: 0.5s linear;
+  transition: 1s linear;
 }
 .social-links > div:hover {
   background-color: #4488cc;
