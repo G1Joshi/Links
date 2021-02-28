@@ -1,0 +1,85 @@
+body {
+  background-color: #002244;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+.social {
+  height: 85px;
+  width: 85px;
+  background-color: #4488cc;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 43px;
+  z-index: 1;
+  cursor: pointer;
+}
+.g1 {
+  position: relative;
+  top: 13px;
+  left: 11px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.social-links {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-links > div {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+  font-size: 43px;
+  transition: 0.5s linear;
+}
+.social-links > div:hover {
+  background-color: #4488cc;
+}
+.social-links > div:hover a {
+  color: white;
+}
+.fa {
+  position: relative;
+  top: 17px;
+}
+a {
+  color: #4488cc;
+}
+#link1 {
+  bottom: 0px;
+}
+#link2 {
+  bottom: 80px;
+}
+#link3 {
+  bottom: 160px;
+}
+#link4 {
+  bottom: 240px;
+}
+#link5 {
+  bottom: 320px;
+}
+#link6 {
+  bottom: 400px;
+}
+#link7 {
+  bottom: 480px;
+}
+#link8 {
+  bottom: 560px;
+}
